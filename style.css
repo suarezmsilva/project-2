@@ -1,40 +1,88 @@
-* {box-sizing: border-box;}
+@font-face {
+  font-family: Barriecito;
+  src: url(barriecito/Barriecito-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body.home-page {
+  background-image: url('images/FOP-bg.jpg');
+  background-size: cover;
+}
+body.powerpuff-page {
+  background-color: pink;
+}
+body.johnny-page {
+  background-color: rgb(226, 125, 78);
+}
+body.kimpossible-page {
+  background-color: teal;
+}
+body.courage-page {
+  background-color: rgb(214, 159, 219);
+}
 main {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  h1 {
-    font-family: 'Barriecito', cursive;
-    color: white;
-    font-size: xx-large;
-  }
+  width: 40%;
+  margin: auto;
+}
 
+h1 {
+  font-family: 'Barriecito', cursive;
+  color: white;
+  font-size: xx-large;
+}
+header {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.fairly-odd-page {
+  background-image: url('images/FOP-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .fairly-odd-page {
-    background-image: url("images/FOP-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0 20px;
-    padding-top: 40px;
-  }
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin-top: 0;
-  }
-  nav li {
-    margin-right: 40px;
-    flex: 1;
-  }
-
-  a { color: white}
-  body { font-family:”Oswald”}
-  Nav li {font-family:fred}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+}
+nav li {
+  margin-right: 40px;
+  flex: 1;
+  white-space: nowrap;
+}
+nav h1 {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+body {
+  font-family: ”Oswald”;
+}
+nav li {
+  font-family: fred;
+}
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
