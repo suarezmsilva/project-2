@@ -1,0 +1,23 @@
+body.kimpossible-page {
+  background-color: teal;
+}
+img {width:100%;}
+nav {
+  display:flex;
+  justify-content: flex-end;
+}
+nav a {
+  color: white;
+  padding: 8px 16px;
+}
+header {width:100%;}
+
+main {
+  width:40%;
+  margin:auto;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width:100%;
+}
