@@ -46,8 +46,9 @@ main {
 }
 h1 {
   font-family: 'Barriecito', cursive;
+  font-size: 80px;
   color: white;
-  font-size: xx-large;
+
 }
 header {
   width: 100%;
@@ -85,14 +86,19 @@ nav a {
   text-decoration: none;
 }
 a {
-  color: white;
+  color:white
 }
+a:hover {
+  color:yellowgreen
+}
+
 main {
   font-family: 'Oswald';
 }
 nav li {
   font-family: 'Oswald';
   color: white;
+  font-size: 20px;
 }
 iframe {
   aspect-ratio: 16/9;
